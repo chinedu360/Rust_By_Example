@@ -63,7 +63,7 @@ pub fn bindings() {
 
     println!("a binding: {}", a_binding);
 
-    let another_binding:i32;
+    let another_binding: i32;
     // Err: `another_binding` used here but it isn't initialized
     // println!("another binding: {}", another_binding);
 

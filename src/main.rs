@@ -3,7 +3,8 @@
 
 use rust_by_example_2::{
     // custom_type::*,
-    variable_bindings::*,
+    // variable_bindings::*,
+    types_conversion::*,
 };
 
 fn main() {
@@ -13,5 +14,8 @@ fn main() {
     // use_main();
 
     //variable bindings
-    bindings();
+    // bindings();
+
+    //Types
+    types();
 }
