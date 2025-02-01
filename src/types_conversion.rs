@@ -43,9 +43,13 @@ pub fn types() {
     type Inch = u64;
     type U64 = u64;
 
-    let nanosec:NanoSec = 5 as u64;
-    let inches:Inch = 2 as U64;
+    let nanosec: NanoSec = 5 as u64;
+    let inches: Inch = 2 as U64;
 
-    println!("{} nanosec + {} inches = {} unit?",
- nanosec, inches,nanosec + inches);
+    println!(
+        "{} nanosec + {} inches = {} unit?",
+        nanosec,
+        inches,
+        nanosec + inches
+    );
 }

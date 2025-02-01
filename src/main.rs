@@ -4,7 +4,8 @@
 use rust_by_example_2::{
     // custom_type::*,
     // variable_bindings::*,
-    types_conversion::*,
+    // types_conversion::*,
+    expression_pattern_match::*,
 };
 
 fn main() {
@@ -17,5 +18,8 @@ fn main() {
     // bindings();
 
     //Types
-    types();
+    // types();
+
+    // Expression, statments and matching patterns
+    express_pattern();
 }
