@@ -5,7 +5,9 @@ use rust_by_example_2::{
     // custom_type::*,
     // variable_bindings::*,
     // types_conversion::*,
-    expression_statement_control_flow::*,
+    // expression_statement_control_flow::*,
+    // randoms::*,
+    function::*,
 };
 
 fn main() {
@@ -21,5 +23,11 @@ fn main() {
     // types();
 
     // Expression, statments and matching patterns
-    express_pattern();
+    // express_pattern();
+
+    //Option and Result Enums
+    // random_fn()
+
+    // Functions
+    simple_fn();
 }
